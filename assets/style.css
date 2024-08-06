@@ -1,0 +1,12 @@
+.passero-one-regular {
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.main-img {
+    float: left;
+    margin-right: 40px;
+    width: 30vw;
+}
