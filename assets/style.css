@@ -170,3 +170,7 @@ button[type='submit'] {
     font-weight: 600;
 }
 
+.log-in {
+    color:#b25d32;
+    text-decoration: none;
+}
