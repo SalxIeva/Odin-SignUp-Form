@@ -126,7 +126,7 @@ label {
 }
 
 input {
-    border: 1px solid rgb(199, 199, 199);
+    border: 1px solid #E5E7EB;
     border-radius: 3px;
 }
 
@@ -137,6 +137,12 @@ input:hover {
 
 input:focus {
     border: 1px solid blue;
+    box-shadow: 1px 1px 3px var(--darkBlue);
+    outline: none;
+}
+
+input[type='password']:invalid {
+    border: 1px solid red;
     box-shadow: 1px 1px 3px var(--darkBlue);
     outline: none;
 }
