@@ -10,12 +10,6 @@
   }
 
 
-/* .main-img {
-    float: left;
-    margin-right: 40px;
-    width: 30vw;
-} */
-
 .image-container {
     position: relative;
     display: inline-block;
@@ -46,4 +40,16 @@
     font-size: 50px;
     font-family: "Passero One", sans-serif;
     color: #fff;
+}
+
+.img-credit {
+    position: var(--absolute);
+    top: 96%;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.img-credit em {
+    text-decoration: underline;
 }
