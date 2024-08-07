@@ -1,6 +1,6 @@
 :root {
     --absolute: absolute;
-
+    --white: #fff;
 }
 
 .passero-one-regular {
@@ -39,13 +39,13 @@
 .odin {
     font-size: 50px;
     font-family: "Passero One", sans-serif;
-    color: #fff;
+    color: var(--white);
 }
 
 .img-credit {
     position: var(--absolute);
     top: 96%;
-    color: #fff;
+    color: var(--white);
     width: 100%;
     text-align: center;
 }
