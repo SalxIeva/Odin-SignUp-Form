@@ -7,6 +7,7 @@
     --headSize: 14px;
     --mainFont: Arial, Helvetica, sans-serif;
     --fWeight: 600;
+    --darkBlue: #3c3c53;
 }
 
 /* * {
@@ -106,6 +107,7 @@ legend {
     padding-top: 40px;
     font-size: 16px;
     font-weight: var(--fWeight);
+    color: var(--darkBlue);
 }
 
 input, label {
@@ -119,5 +121,6 @@ label {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: var(--fWeight);
+    color: var(--darkBlue);
 }
 
