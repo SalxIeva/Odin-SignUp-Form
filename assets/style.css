@@ -4,7 +4,12 @@
     --padding: 30px;
     --left: 30px;
     --right: 100px;
+    --bottom: 20px;
     --headSize: 14px;
+    --mainFont: Arial, Helvetica, sans-serif;
+    --fWeight: 700;
+    --darkBlue: #3c3c53;
+    --spacing: 1px;
 }
 
 /* * {
@@ -71,16 +76,16 @@ body {
 
 .form {
     /* padding: 20px; */
-    background-color: var(--white);
-    font-family: Arial, Helvetica, sans-serif
+    background-color:#fffffff4;
+    font-family: var(--mainFont);
 }
 
 .intro {
-    margin: 120px var(--right) 20px var(--left);
+    margin: 120px var(--right) var(--bottom) var(--left);
 }
 
 .push {
-    margin: 0 var(--right) var(--left) var(--left);
+    margin: 0 var(--right) var(--bottom) var(--left);
 }
 
 .intro, .push {
@@ -89,4 +94,83 @@ body {
 
 h3 span {
     font-style: italic;
+}
+
+fieldset {
+    border: none;
+    background-color: var(--white);
+    padding: 0 180px var(--left) var(--left);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 5px -2px #c5c7cb;
+}
+
+legend {
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: var(--fWeight);
+    color: var(--darkBlue);
+}
+
+input, label {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding-top: 14px;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: var(--spacing);
+    font-weight: var(--fWeight);
+    color: var(--darkBlue);
+    padding-bottom: 1px;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+}
+
+input:hover {
+    border: 1px solid blue;
+    box-shadow: 1px 1px 3px var(--darkBlue);
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 1px 1px 3px var(--darkBlue);
+    outline: none;
+}
+
+input[type='password']:invalid {
+    border: 1px solid red;
+    box-shadow: 1px 1px 3px var(--darkBlue);
+    outline: none;
+}
+
+.submit {
+    margin: var(--left);
+}
+
+button[type='submit'] {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b25d32;
+    color: var(--white);
+    font-weight: var(--fWeight);
+    font-size: 13px;
+}
+
+.submit p {
+    font-size: 13px;
+    padding-top: 8px;
+    font-weight: 600;
+}
+
+.log-in {
+    color:#b25d32;
+    text-decoration: none;
 }
