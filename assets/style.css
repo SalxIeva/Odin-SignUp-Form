@@ -20,8 +20,8 @@
 
 .image-container .main-img {
     display: block;
-    width: 66.5vh;
-    height: auto;
+    max-width: 55vh;
+    height: 100vh;
 }
 
 .logo-container {
