@@ -120,7 +120,12 @@ label {
     font-size: 9px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: var(--fWeight);
+    font-weight: 700;
     color: var(--darkBlue);
+    padding-bottom: 1px;
 }
 
+input {
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 3px;
+}
