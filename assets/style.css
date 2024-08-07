@@ -81,3 +81,7 @@ body {
 .push {
     margin: 0 var(--right) var(--left) var(--left);
 }
+
+h3 span {
+    font-style: italic;
+}
