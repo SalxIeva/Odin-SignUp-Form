@@ -3,9 +3,9 @@
     --white: #fff;
 }
 
-* {
+/* * {
     width: fit-content;
-}
+} */
 .passero-one-regular {
     font-family: "Passero One", sans-serif;
     font-weight: 400;
@@ -20,7 +20,7 @@
 
 .image-container .main-img {
     display: block;
-    width: 30vw;
+    width: 66.5vh;
     height: auto;
 }
 
@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: rgb(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .logo {
@@ -60,4 +60,6 @@
 body {
     display: flex;
     justify-content: space-between;
+    max-height: 100vh;
+    margin: 0;
 }
