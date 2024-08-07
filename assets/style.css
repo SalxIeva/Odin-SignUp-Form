@@ -36,7 +36,6 @@
 
 .logo {
     width: 4vw;
-    padding: 5px;
 }
 
 .odin {
@@ -66,6 +65,6 @@ body {
 }
 
 .form {
-    padding: 20px;
+    /* padding: 20px; */
     background-color: var(--white);
 }
