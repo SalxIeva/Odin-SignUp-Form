@@ -5,6 +5,7 @@
     --left: 30px;
     --right: 100px;
     --headSize: 14px;
+    --mainFont: Arial, Helvetica, sans-serif;
 }
 
 /* * {
@@ -72,7 +73,7 @@ body {
 .form {
     /* padding: 20px; */
     background-color:#fffffff4;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: var(--mainFont);
 }
 
 .intro {
@@ -107,5 +108,13 @@ legend {
 input, label {
     display: flex;
     flex-direction: column;
-    padding: 10px;
 }
+
+label {
+    padding-top: 14px;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
