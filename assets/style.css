@@ -3,6 +3,9 @@
     --white: #fff;
 }
 
+* {
+    width: fit-content;
+}
 .passero-one-regular {
     font-family: "Passero One", sans-serif;
     font-weight: 400;
@@ -52,4 +55,9 @@
 
 .img-credit em {
     text-decoration: underline;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
 }
