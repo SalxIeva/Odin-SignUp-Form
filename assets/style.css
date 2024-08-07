@@ -129,3 +129,14 @@ input {
     border: 1px solid rgb(199, 199, 199);
     border-radius: 3px;
 }
+
+input:hover {
+    border: 1px solid blue;
+    box-shadow: 1px 1px 3px var(--darkBlue);
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 1px 1px 3px var(--darkBlue);
+    outline: none;
+}
