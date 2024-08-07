@@ -7,8 +7,9 @@
     --bottom: 20px;
     --headSize: 14px;
     --mainFont: Arial, Helvetica, sans-serif;
-    --fWeight: 600;
+    --fWeight: 700;
     --darkBlue: #3c3c53;
+    --spacing: 1px;
 }
 
 /* * {
@@ -121,8 +122,8 @@ label {
     padding-top: 14px;
     font-size: 9px;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
+    letter-spacing: var(--spacing);
+    font-weight: var(--fWeight);
     color: var(--darkBlue);
     padding-bottom: 1px;
 }
@@ -147,4 +148,18 @@ input[type='password']:invalid {
     border: 1px solid red;
     box-shadow: 1px 1px 3px var(--darkBlue);
     outline: none;
+}
+
+.submit {
+    margin: var(--left);
+}
+
+button[type='submit'] {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b25d32;
+    color: var(--white);
+    font-weight: var(--fWeight);
+    font-size: 13px;
 }
