@@ -163,3 +163,10 @@ button[type='submit'] {
     font-weight: var(--fWeight);
     font-size: 13px;
 }
+
+.submit p {
+    font-size: 13px;
+    padding-top: 8px;
+    font-weight: 600;
+}
+
