@@ -61,5 +61,11 @@ body {
     display: flex;
     justify-content: space-between;
     max-height: 100vh;
-    margin: 0;
+    margin: 0 250px;
+    background-color: #000;
+}
+
+.form {
+    padding: 20px;
+    background-color: var(--white);
 }
