@@ -4,6 +4,7 @@
     --padding: 30px;
     --left: 30px;
     --right: 100px;
+    --bottom: 20px;
     --headSize: 14px;
     --mainFont: Arial, Helvetica, sans-serif;
     --fWeight: 600;
@@ -79,11 +80,11 @@ body {
 }
 
 .intro {
-    margin: 120px var(--right) 20px var(--left);
+    margin: 120px var(--right) var(--bottom) var(--left);
 }
 
 .push {
-    margin: 0 var(--right) var(--left) var(--left);
+    margin: 0 var(--right) var(--bottom) var(--left);
 }
 
 .intro, .push {
@@ -101,6 +102,7 @@ fieldset {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    box-shadow: 0 4px 5px -2px #c5c7cb;
 }
 
 legend {
