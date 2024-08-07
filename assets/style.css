@@ -1,6 +1,7 @@
-/* :root {
-    
-} */
+:root {
+    --absolute: absolute;
+
+}
 
 .passero-one-regular {
     font-family: "Passero One", sans-serif;
@@ -27,19 +28,22 @@
 }
 
 .logo-container {
-    position: absolute;
+    position: var(--absolute);
     top: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
 }
 
 .logo {
     width: 4vw;
+    padding: 5px;
 }
 
 .odin {
     font-size: 50px;
     font-family: "Passero One", sans-serif;
+    color: #fff;
 }
