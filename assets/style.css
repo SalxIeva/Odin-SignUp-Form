@@ -1,6 +1,9 @@
 :root {
     --absolute: absolute;
     --white: #fff;
+    --padding: 30px;
+    --left: 30px;
+    --right: 100px
 }
 
 /* * {
@@ -46,10 +49,11 @@
 
 .img-credit {
     position: var(--absolute);
-    top: 96%;
+    top: 97%;
     color: var(--white);
     width: 100%;
     text-align: center;
+    font-size: 12px;
 }
 
 .img-credit em {
@@ -67,4 +71,13 @@ body {
 .form {
     /* padding: 20px; */
     background-color: var(--white);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.intro {
+    margin: 120px var(--right) 20px var(--left);
+}
+
+.push {
+    margin: 0 var(--right) var(--left) var(--left);
 }
