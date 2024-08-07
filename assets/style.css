@@ -6,6 +6,7 @@
     --right: 100px;
     --headSize: 14px;
     --mainFont: Arial, Helvetica, sans-serif;
+    --fWeight: 600;
 }
 
 /* * {
@@ -102,7 +103,9 @@ fieldset {
 }
 
 legend {
-    padding-top: 20px;
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: var(--fWeight);
 }
 
 input, label {
@@ -115,6 +118,6 @@ label {
     font-size: 9px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: var(--fWeight);
 }
 
