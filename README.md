@@ -27,6 +27,12 @@ https://salxieva.github.io/Odin-SignUp-Form/
 This project was created for educational purposes and as a demonstration of basic web development skills.
 
 
+## Screenshot
+
+![image](https://github.com/user-attachments/assets/19476d3a-d70a-46f1-8cfa-a54ce1ee8358)
+
+
 ## License
 
 This project is licensed under the MIT License.
+
