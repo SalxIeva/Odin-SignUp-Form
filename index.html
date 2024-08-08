@@ -54,7 +54,7 @@
             <!-- Phone Number Input-->
             <div class="form-row">
                 <label for="number">Phone Number</label>
-                <input type="tel" id="number" name="number" maxlength="12" minlength="5"/>
+                <input type="tel" id="number" name="number" maxlength="12" minlength="5" onchange="change()"/>
             </div>
 
             <!-- Password input-->
@@ -71,7 +71,7 @@
         </fieldset>
 
         <div class="submit">
-            <button type="submit">Create Account</button>
+            <button type="submit" id="submitBtn">Create Account</button>
             <p>Already have an account? <a href="" class="log-in">Log in</a></p>
         </div>
      </form>
